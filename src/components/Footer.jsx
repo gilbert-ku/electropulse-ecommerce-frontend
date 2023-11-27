@@ -75,7 +75,7 @@ const Footer = () => {
                                 <a href="#" className="hover:underline">M-pesa</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Paybal</a>
+                                <a href="#" className="hover:underline">Paypal</a>
                             </li>
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">Master card</a>
