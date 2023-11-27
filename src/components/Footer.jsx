@@ -29,7 +29,11 @@ const Footer = () => {
                                 <a href="#" className="hover:underline">Brand Center</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Blog</a>
+                                <a href="#" className="hover:underline">
+                                    <button class="bg-transparent hover:bg-Amber-600 text-Amber-700 font-semibold hover:text-white py-2 px-4 border border-Amber-600 hover:border-transparent rounded">
+                                        Sell on Electropulse
+                                    </button>
+                                </a>
                             </li>
                         </ul>
                     </div>
