@@ -30,7 +30,7 @@ const Footer = () => {
                             </li>
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">
-                                    <button class="bg-transparent hover:bg-Amber-600 text-Amber-700 font-semibold hover:text-white py-2 px-4 border border-Amber-600 hover:border-transparent rounded">
+                                    <button className="bg-transparent hover:bg-Amber-600 text-Amber-700 font-semibold hover:text-white py-2 px-4 border border-Amber-600 hover:border-transparent rounded">
                                         Sell on Electropulse
                                     </button>
                                 </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                                 <a href="#" className="hover:underline">M-pesa</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Paybal</a>
+                                <a href="#" className="hover:underline">Paypal</a>
                             </li>
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">Master card</a>
