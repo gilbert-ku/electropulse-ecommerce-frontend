@@ -13,7 +13,31 @@ const SignUp = () => {
         confirmPassword: ""
     })
         
-    
+    const handleInputChange = (e) => {
+        const {name, value} = e.targer;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }))
+    }
+
+    const handleSubmit = async (e) => {
+        e.preventDefault(); 
+
+        try {
+            const response = await axios.post("http://127.0.0.1:5555/usersignup", formData, {
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            })
+
+            console.log("sing-up successful. User data ", response.data)
+        }
+
+        catch (error) {
+            console.error("Error during sign-up:", error)
+        }
+    };
    
 
     return (
