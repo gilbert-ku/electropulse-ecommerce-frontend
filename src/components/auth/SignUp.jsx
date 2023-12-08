@@ -1,7 +1,20 @@
 import electrologo from "/electrolog.png"
+import { useState } from "react"
+import axios from "axios"
 
 
 const SignUp = () => {
+
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phoneNum: "",
+        password: "",
+        confirmPassword: ""
+    })
+        
+    
+   
 
     return (
 

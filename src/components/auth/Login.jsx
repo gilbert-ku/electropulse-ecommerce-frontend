@@ -1,8 +1,8 @@
 import electrologo from "/electrolog.png"
 
 
-const LogIn = () => {
-    return (
+const LogIn = () => {   
+    return (     
     <>
         <h1>SignIn page</h1>
 
